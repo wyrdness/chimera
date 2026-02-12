@@ -1,0 +1,398 @@
+{
+  "category": "MYTHOLOGICAL_CREATURE",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/chimera",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "chimera",
+    "name": "Chimera",
+    "aliases": [
+      {
+        "name": "Chimaera",
+        "language": "Greek",
+        "region": "Ancient Greece"
+      },
+      {
+        "name": "Khimaira",
+        "language": "Greek (transliteration)",
+        "meaning": "She-goat"
+      }
+    ],
+    "category": "MYTHOLOGICAL_CREATURE",
+    "subcategory": "Hybrid Monster",
+    "tags": [
+      "greek-mythology",
+      "hybrid",
+      "fire-breathing",
+      "monster",
+      "composite-creature",
+      "bellerophon"
+    ],
+    "status": "mythological",
+    "description": {
+      "summary": "A hybrid monster from Greek mythology with a lion's head and body, a goat's head growing from its back, and a serpent or dragon for a tail. Famous for breathing fire and being slain by the hero Bellerophon riding Pegasus.",
+      "full": "The Chimera is a monstrous hybrid creature from Greek mythology, described as having the head and body of a lion, a second head of a goat protruding from its back, and a tail ending in a serpent's head or dragon. A fire-breathing female monster, the Chimera was the offspring of the giants Typhon and Echidna. She terrorized the region of Lycia until being slain by the hero Bellerophon, who rode the winged horse Pegasus. The Chimera has become the quintessential symbol of impossible hybrids and fantastical combinations, giving its name to the modern concept of 'chimera' - any impossible idea or hybrid creature. In genetics, chimerism refers to organisms containing cells with different DNA, named after this mythological beast."
+    },
+    "etymology": {
+      "origin": "From Greek 'khimaira' (Χίμαιρα), meaning 'she-goat' or 'year-old she-goat'.",
+      "meaning": "She-goat; later came to mean any fantastical hybrid",
+      "first_use": "Ancient Greek, Homeric period"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "MYTHOLOGICAL_CREATURE",
+      "type": "Hybrid Monster",
+      "subtype": "Composite Creature",
+      "variant": "Greek"
+    },
+    "related_phenomena": [
+      {
+        "id": "hydra",
+        "name": "Hydra",
+        "relationship": "sibling",
+        "description": "Multi-headed serpent, also offspring of Typhon and Echidna"
+      },
+      {
+        "id": "cerberus",
+        "name": "Cerberus",
+        "relationship": "sibling",
+        "description": "Three-headed dog, also offspring of Typhon and Echidna"
+      },
+      {
+        "id": "sphinx",
+        "name": "Sphinx",
+        "relationship": "related",
+        "description": "Another composite monster with lion body and human head"
+      },
+      {
+        "id": "manticore",
+        "name": "Manticore",
+        "relationship": "similar",
+        "description": "Persian composite creature with lion body and human head"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": {
+        "description": "Large, typically depicted as larger than a lion",
+        "confidence": "medium"
+      },
+      "composition": [
+        "Lion's head and body (primary)",
+        "Goat's head on back (secondary)",
+        "Serpent or dragon tail (tertiary)"
+      ],
+      "features": [
+        {
+          "feature": "Lion head and body",
+          "description": "Primary form is that of a large lion",
+          "frequency": "always"
+        },
+        {
+          "feature": "Goat head",
+          "description": "Second head of a goat protruding from the middle of its back",
+          "frequency": "always"
+        },
+        {
+          "feature": "Serpent tail",
+          "description": "Tail ending in a serpent or dragon head",
+          "frequency": "always"
+        },
+        {
+          "feature": "Fire-breathing",
+          "description": "Ability to breathe fire from one or more heads",
+          "frequency": "always"
+        }
+      ],
+      "gender": "Female",
+      "morphology": "Composite creature combining three animals into one impossible hybrid"
+    },
+    "abilities": [
+      {
+        "ability": "Fire breathing",
+        "description": "Breathes fire, typically from the lion or goat head",
+        "frequency": "always",
+        "evidence_level": "mythological"
+      },
+      {
+        "ability": "Multiple attacks",
+        "description": "Can attack with multiple heads and tail simultaneously",
+        "frequency": "always",
+        "evidence_level": "mythological"
+      },
+      {
+        "ability": "Serpent bite",
+        "description": "Venomous bite from serpent tail",
+        "frequency": "common",
+        "evidence_level": "mythological"
+      }
+    ],
+    "behavior": {
+      "disposition": "hostile",
+      "habitat_preference": [
+        "Lycia region",
+        "mountains",
+        "remote areas"
+      ],
+      "diet": "Carnivorous",
+      "patterns": [
+        "Terrorized countryside",
+        "Attacked travelers and livestock",
+        "Ravaged the land"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Greek mythology, specifically associated with Lycia in Asia Minor",
+      "continents": ["Asia Minor"],
+      "regions": [
+        "Ancient Lycia (modern Turkey)",
+        "Greek mythological world"
+      ]
+    },
+    "specific_location": {
+      "name": "Lycia",
+      "description": "Ancient region in Asia Minor where the Chimera terrorized",
+      "modern_location": "Southwest Turkey"
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "8th century BCE",
+        "circa": true,
+        "source": "Homer's Iliad"
+      },
+      "mythological_period": "Age of Heroes"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Greek mythology, possibly influenced by Persian and Near Eastern hybrid creatures",
+      "earliest_accounts": "Homer's Iliad (Book 6)",
+      "folklore_connections": "Part of Greek monster mythology, connected to Typhon and Echidna's offspring. Possible Persian artistic influences."
+    },
+    "mythology": {
+      "parentage": {
+        "mother": "Echidna",
+        "father": "Typhon",
+        "siblings": ["Cerberus", "Hydra", "Orthrus", "Sphinx"]
+      },
+      "slayer": {
+        "hero": "Bellerophon",
+        "mount": "Pegasus (winged horse)",
+        "method": "Aerial attack from above on Pegasus, avoided fire by staying airborne"
+      }
+    },
+    "timeline": [
+      {
+        "date": "8th century BCE",
+        "event": "Homer's Iliad",
+        "significance": "First written account of the Chimera",
+        "source": "Iliad, Book 6"
+      },
+      {
+        "date": "Mythological age",
+        "event": "Slaying by Bellerophon",
+        "significance": "Bellerophon kills the Chimera riding Pegasus",
+        "source": "Greek mythology"
+      },
+      {
+        "date": "Classical period",
+        "event": "Widespread artistic depictions",
+        "significance": "Featured on pottery, sculpture, and coins",
+        "source": "Archaeological evidence"
+      }
+    ],
+    "modern_era": "The Chimera has become the archetypal impossible hybrid. The term 'chimera' now means any fantastical or impossible idea, especially in science. In genetics, 'chimerism' describes organisms with cells from multiple DNA sources. The creature appears throughout fantasy literature, games, and art."
+  },
+
+  "famous_myth": {
+    "title": "Bellerophon and the Chimera",
+    "summary": "King Iobates of Lycia, at the urging of Proetus, sent the hero Bellerophon to slay the Chimera, expecting him to die. Bellerophon, with the help of the goddess Athena, tamed the winged horse Pegasus. Riding Pegasus, he attacked the Chimera from the air, avoiding its fire breath and ground attacks. He killed it by dropping lead into its mouth from above, which melted from the fire and choked the monster.",
+    "participants": [
+      "Bellerophon (hero)",
+      "Pegasus (winged horse)",
+      "Athena (goddess who helped)",
+      "Iobates (king who sent Bellerophon)"
+    ],
+    "outcome": "Bellerophon successfully slew the Chimera",
+    "method": "Some accounts say he used a lead-tipped spear or dropped lead into its mouth, which melted from the creature's fire"
+  },
+
+  "symbolism": {
+    "primary_meanings": [
+      "Impossible hybrid",
+      "Fantastical combination",
+      "Illusion or delusion",
+      "Composite danger",
+      "The unnatural"
+    ],
+    "modern_usage": [
+      "Any fantastical or impossible idea",
+      "Scientific chimerism - organisms with multiple DNA sets",
+      "\"Chasing chimeras\" - pursuing impossible goals",
+      "Literary device for impossible combinations"
+    ]
+  },
+
+  "possible_origins": {
+    "natural_phenomena": [
+      {
+        "theory": "Volcanic vents",
+        "description": "The fire-breathing aspect may have been inspired by volcanic gas vents in Lycia that emit flames (such as the Yanartaş eternal flames)",
+        "evidence": "Natural gas seeps in Lycia still burn today"
+      }
+    ],
+    "cultural_influences": [
+      {
+        "theory": "Persian artistic influence",
+        "description": "Composite creatures common in Persian and Near Eastern art",
+        "evidence": "Similar hybrid creatures in Persian iconography"
+      }
+    ],
+    "symbolic": [
+      {
+        "theory": "Composite symbolism",
+        "description": "Represents combined threats: lion (land predator), goat (wild mountains), serpent (hidden danger)",
+        "interpretation": "Multi-faceted danger personified"
+      }
+    ]
+  },
+
+  "evidence": {
+    "physical": [],
+    "historical": [
+      {
+        "type": "literary",
+        "description": "Homer's Iliad and other ancient Greek texts",
+        "status": "documented",
+        "period": "8th century BCE onwards"
+      },
+      {
+        "type": "artistic",
+        "description": "Depictions on Greek and Etruscan pottery, sculpture, and coins",
+        "status": "documented",
+        "period": "Archaic and Classical periods"
+      },
+      {
+        "type": "natural",
+        "description": "Yanartaş eternal flames in Turkey (ancient Lycia)",
+        "status": "documented",
+        "period": "Ancient to present"
+      }
+    ]
+  },
+
+  "theories": {
+    "mythological": [
+      {
+        "name": "Monster offspring",
+        "description": "One of many monstrous children of Typhon and Echidna",
+        "evidence_cited": ["Hesiod's Theogony", "Greek mythological genealogies"]
+      }
+    ],
+    "historical_basis": [
+      {
+        "name": "No cryptozoological claims",
+        "description": "Purely mythological - no historical sighting reports",
+        "evidence_cited": ["Absence of sighting accounts", "Clearly mythological context"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Greek mythological cycle",
+        "Bellerophon's heroic deeds",
+        "Monster genealogies"
+      ],
+      "beliefs": "Central figure in Greek heroic mythology"
+    },
+    "heraldry": [
+      "Appears in medieval heraldry",
+      "Symbol of fierceness and impossibility"
+    ],
+    "popular_culture": {
+      "literature": [
+        "Greek mythology collections",
+        "Classical texts (Homer, Hesiod)",
+        "Modern fantasy literature"
+      ],
+      "film_tv": [
+        "Clash of the Titans (1981, 2010)",
+        "Percy Jackson series",
+        "Various fantasy films"
+      ],
+      "games": [
+        "Dungeons & Dragons",
+        "Final Fantasy series",
+        "World of Warcraft",
+        "Age of Mythology"
+      ],
+      "science": [
+        "Chimerism in genetics",
+        "Chimeric antibodies in medicine",
+        "Chimeric organisms in research"
+      ]
+    }
+  },
+
+  "research": {
+    "scholars": [
+      {
+        "name": "Ancient mythographers",
+        "contribution": "Preserved and transmitted Chimera myths",
+        "period": "Classical antiquity"
+      }
+    ],
+    "classification": "Mythological creature - influential concept in modern science and culture"
+  },
+
+  "sources": [
+    {
+      "id": "homer-iliad",
+      "type": "ancient_text",
+      "title": "The Iliad",
+      "authors": ["Homer"],
+      "date": "~8th century BCE"
+    },
+    {
+      "id": "hesiod-theogony",
+      "type": "ancient_text",
+      "title": "Theogony",
+      "authors": ["Hesiod"],
+      "date": "~8th century BCE"
+    },
+    {
+      "id": "hard-2004",
+      "type": "book",
+      "title": "The Routledge Handbook of Greek Mythology",
+      "authors": ["Robin Hard"],
+      "publication": "Routledge",
+      "date": "2004"
+    }
+  ]
+}
